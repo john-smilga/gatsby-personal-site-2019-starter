@@ -1,0 +1,7 @@
+.banner {
+  min-height: calc(100vh - 5rem);
+  background: var(--darkGrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

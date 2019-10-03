@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--mainWhite);
+  background: var(--mainBlack);
+}
+.icons {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 2rem;
+  margin: 0 0.4rem;
+  transition: var(--mainTransition);
+}
+.icon:hover {
+  transform: translateY(-10%);
+}
+.info {
+  margin: 0.5rem 0;
+}
+.link {
+  display: inline-block;
+  color: var(--primaryColor);
+  margin-left: 0.2rem;
+  transition: var(--mainTransition);
+  text-decoration: underline;
+}
+.link:hover {
+  color: var(--darkGrey);
+}

@@ -1,0 +1,7 @@
+.error {
+  min-height: calc(100vh - (5rem + 12.6rem));
+  background: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

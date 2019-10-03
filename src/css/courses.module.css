@@ -1,0 +1,24 @@
+.courses {
+  padding: 6rem 0;
+  text-align: center;
+  background: var(--mainGrey);
+}
+.center {
+  width: 80vw;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+}
+@media screen and (min-width: 576px) {
+  .center {
+    grid-template-columns: repeat(auto-fill, minmax(23.04rem, 1fr));
+  }
+}
+@media screen and (min-width: 1200px) {
+  .center {
+    width: 100%;
+    max-width: 1170px;
+  }
+}

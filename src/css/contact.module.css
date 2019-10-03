@@ -1,0 +1,23 @@
+.contact {
+  min-height: calc(100vh - 18rem);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.text {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.text p {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+.text a {
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.text a:hover {
+  color: var(--darkGrey);
+  text-decoration: underline;
+}
